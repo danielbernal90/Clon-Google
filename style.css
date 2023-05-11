@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/98.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    padding: 0 12px;
+}
+
+header .options{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+header .options a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+header .options .a img{
+    font-size: 24px;
+  }
+  
